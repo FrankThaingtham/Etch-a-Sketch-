@@ -35,3 +35,8 @@
   height: calc(100% / var(--n));
   border: 2px solid black;
 }
+
+.boxInside.hovered {
+  background-color: black;
+}
+

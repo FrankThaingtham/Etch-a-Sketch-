@@ -13,4 +13,10 @@ function buildGrid(n) {
   }
 }
 
+box.addEventListener("mouseover", (e) => {
+  if (e.target.classList.contains("boxInside")) {
+    e.target.classList.add("hovered");
+  }
+});
+
 buildGrid(16);
